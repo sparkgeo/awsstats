@@ -47,7 +47,7 @@ output
     instance_id: 
 
 
-####dynammodb.py
+####dynamodb.py
 
 * **get_avg_read_capacity(table_name)**: The number of read capacity units consumed over the time range. (units: Count)
 
