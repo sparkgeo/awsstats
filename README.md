@@ -3,12 +3,12 @@ awsstats
 
 AWS services' statistics...simplified!
 
-##Requires
+## Requires
 
 * boto3
 
 
-##Example
+## Example
 
     # Environment variables
     # AWS_ACCESS_KEY=<YOUR AWS_ACCESS_KEY>
@@ -35,19 +35,19 @@ output
 
 ##Mini API Docs
 
-####Some Defaults
+#### Some Defaults
 
 * Time ranges: 1 hour
 * Period: 60 seconds (unless restricted by service)
 
-####ec2.py
+#### ec2.py
 
 * **get_avg_cpu(instance_id)**: The percentage of CPU utilization. (units: %)
     
     instance_id: 
 
 
-####dynamodb.py
+#### dynamodb.py
 
 * **get_avg_read_capacity(table_name)**: The number of read capacity units consumed over the time range. (units: Count)
 
@@ -57,7 +57,7 @@ output
 
     table_name: DynamoDB table name
 
-####rds.py
+#### rds.py
 
 * **get_avg_cpu(db_instance_name)**: The percentage of CPU utilization. (units: %)
     
