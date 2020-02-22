@@ -1,4 +1,4 @@
-import utils
+import .utils
 
 __all__ = ('get_avg_cpu',
            'get_avg_read_iops',

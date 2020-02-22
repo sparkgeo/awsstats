@@ -3,6 +3,10 @@ awsstats
 
 AWS services' statistics...simplified!
 
+## Install
+
+`pip install git+https://github.com/sparkgeo/awsstats.git`
+
 ## Requires
 
 * boto3

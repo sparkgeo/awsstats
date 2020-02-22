@@ -1,4 +1,4 @@
-import utils
+from awsstats import utils
 
 __all__ = ('get_avg_cpu',)
 

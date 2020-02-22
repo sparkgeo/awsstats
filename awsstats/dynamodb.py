@@ -1,4 +1,4 @@
-import utils
+from awsstats import utils
 
 __all__ = ('get_avg_read_capacity',
            'get_avg_write_capacity',)
