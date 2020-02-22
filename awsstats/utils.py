@@ -22,7 +22,7 @@ RDS_NAMESPACE = 'AWS/RDS'
 
 def get_client(service, region='us-west-2', aws_key=None, aws_secret=None):
     aws_key = aws_key or os.environ.get('AWS_ACCESS_KEY')
-    aws_secret = aws_secret or os.environ.get('AWS_ACCESS_SECRET')
+    aws_secret = aws_secret or os.environ.get('AWS_SECRET_ACCESS_KEY')
 
     return boto3.client(service, aws_access_key_id=aws_key,
                         aws_secret_access_key=aws_secret,

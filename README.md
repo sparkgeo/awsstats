@@ -12,7 +12,7 @@ AWS services' statistics...simplified!
 
     # Environment variables
     # AWS_ACCESS_KEY=<YOUR AWS_ACCESS_KEY>
-    # AWS_ACCESS_SECRET=<YOUR AWS_ACCESS_SECRET>
+    # AWS_SECRET_ACCESS_KEY=<YOUR AWS_SECRET_ACCESS_KEY>
 
     import ec2
     for timestamp, value in ec2.get_avg_cpu('i-1234ab56'):
